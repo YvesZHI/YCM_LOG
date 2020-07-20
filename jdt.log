@@ -1,35 +1,35 @@
-!SESSION 2020-07-20 02:30:01.132 -----------------------------------------------
+!SESSION 2020-07-20 02:43:51.506 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.7
 java.vendor=Ubuntu
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -data /home/zyh/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/eclipse.jdt.ls/workspace/temp/tmp1y7spiab
+Command-line arguments:  -data /home/zyh/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/eclipse.jdt.ls/workspace/temp/tmpkwwa37fn
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:05.693
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.309
 !MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.031
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.672
 !MESSAGE Main thread is waiting
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.158
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.770
 !MESSAGE >> initialize
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.265
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.888
 !MESSAGE Initializing Java Language Server 0.57.0.202006172108
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.355
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.980
 !MESSAGE Static Commands: []
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.359
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:56.984
 !MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.402
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:57.006
 !MESSAGE Creating the Java project jdt.ls-java-project
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.408
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:57.034
 !MESSAGE >> initialized
 
-!ENTRY org.eclipse.buildship.core 2 0 2020-07-20 02:30:06.714
+!ENTRY org.eclipse.buildship.core 2 0 2020-07-20 02:43:57.351
 !MESSAGE Could not load Gradle version information
 !STACK 0
 org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
@@ -47,35 +47,194 @@ Caused by: java.io.IOException: Unable to tunnel through proxy. Proxy returns "H
         at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:162)
         ... 4 more
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:06.758
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:57.400
 !MESSAGE Finished creating the Java project jdt.ls-java-project
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:09.155
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:43:59.446
 !MESSAGE Importing Maven project(s)
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.633
-!MESSAGE Workspace initialized in 6264ms
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:02.779
+!MESSAGE Workspace initialized in 5791ms
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.718
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:02.818
 !MESSAGE >> initialization job finished
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.721
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:02.820
 !MESSAGE >> workspace/didChangeConfiguration
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.775
-!MESSAGE >> build jobs finished
-
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.782
-!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
-
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.786
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:02.888
 !MESSAGE >> New configuration: {bundles=[]}
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.798
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:02.899
 !MESSAGE >> document/didOpen
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.809
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:04.786
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:04.796
 !MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
 
-!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:30:12.817
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:04.813
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:04.821
 !MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:13.662
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:16.343
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:16.356
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:16.365
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.869
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.911
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.930
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.943
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.955
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.963
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.971
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.978
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.988
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:20.999
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:21.006
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:21.014
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:21.022
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:22.255
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:22.293
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:24.440
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:24.453
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:24.516
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.020
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.094
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.114
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.128
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.140
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.170
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.187
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.207
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.216
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.235
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.245
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:26.249
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.090
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.130
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.921
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.964
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.974
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:30.988
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.001
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-07-20 02:44:31.008
+!MESSAGE file:///home/zyh/tmpWorkZone/RTSP/myflinkRTSP/src/main/java/myflink/StreamingJob.java does not resolve to a ICompilationUnit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.009
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.018
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.023
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.029
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.034
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.043
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.049
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.052
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.059
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:31.075
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-07-20 02:44:40.080
+!MESSAGE >> workspace/didChangeWatchedFiles
